@@ -82,24 +82,25 @@ li:visited {
 
 .left-card {
   text-align: center;
-  background-color: rgb(43, 178, 177);
-  /* padding: 40px; */
+  background-color: var(--primary-color-cyan);
+  padding: 40px;
+  color: #ffffff;
 }
 
 .right-card {
-  text-align: center;
+  text-align: left;
   background-color: rgb(74, 189, 189);
+  padding: 40px;
+  color: #ffffff;
 }
 
-/* Heading styles */
 h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-/* Text styles */
 h4 {
-  font-size: 18px;
+  font-size: 20px;
   margin: 10px 0;
 }
 
@@ -126,12 +127,23 @@ button {
 /* List styles */
 ul {
   list-style: none;
+  text-decoration: none;
+  text-align: left;
 }
 
 li {
+  text-align: left;
   margin: 10px 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Links-right {
+  font-size: small;
+}
 /* Footer styles */
 footer {
   text-align: center;
