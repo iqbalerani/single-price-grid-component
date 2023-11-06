@@ -63,16 +63,14 @@ li:visited {
   max-width: 700px;
   margin: 0 auto;
   margin-top: 100px;
-
   background-color: rgb(255, 255, 255);
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5px 4px rgb(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 
 .top-card {
   text-align: left;
-  padding: 70px 50px;
+  padding: 50px 50px;
 }
 
 .bottom-card {
@@ -83,14 +81,14 @@ li:visited {
 .left-card {
   text-align: center;
   background-color: var(--primary-color-cyan);
-  padding: 40px;
+  padding: 30px;
   color: #ffffff;
 }
 
 .right-card {
   text-align: left;
   background-color: rgb(74, 189, 189);
-  padding: 40px;
+  padding: 30px;
   color: #ffffff;
 }
 
@@ -113,15 +111,17 @@ h4 {
 
 /* Sign-up button styles */
 button {
-  background-color: rgb(191, 223, 51);
+  background-color: var(--primary-color-Bright-Yellow);
   color: #fff;
   border: none;
   border-radius: 4px;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 10px 75px;
+  font-size: 14px;
+  font-weight: 400;
   cursor: pointer;
   transition: background-color 0.3s;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
 }
 
 /* List styles */
@@ -129,6 +129,7 @@ ul {
   list-style: none;
   text-decoration: none;
   text-align: left;
+  padding-top: 10px;
 }
 
 li {
@@ -143,6 +144,13 @@ a {
 
 .Links-right {
   font-size: small;
+  line-height: 8px;
+  color: var(--neutral-color-Light-Gray);
+}
+
+.link-headline {
+  font-weight: 400;
+  font-size: 20px;
 }
 /* Footer styles */
 footer {
@@ -159,4 +167,37 @@ footer {
 }
 .attribution a:hover {
   text-decoration: underline;
+}
+
+.headline1 {
+  color: var(--primary-color-cyan);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.headline2 {
+  color: var(--primary-color-Bright-Yellow);
+  font-weight: 400;
+}
+
+.tagline {
+  color: var(--neutral-color-Grayish-Blue);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+span {
+  color: var(--neutral-color-Light-Gray);
+  font-size: 15px;
+  text-align: center;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.dollar {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 45px;
 }
